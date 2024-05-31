@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;*/
+
+            /* Shorthand - Background 
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }   
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +36,9 @@
 <body>
     <main>
       <h1>Teste de imagem de fundo</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum optio alias quisquam eaque repudiandae quidem repellendus quis asperiores iste doloribus tempore soluta cum ratione enim, sint molestias porro eos Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis nihil consectetur asperiores praesentium reprehenderit blanditiis fugit debitis laborum, neque sunt, obcaecati ipsa molestias at inventore dolore pariatur quam officia. Error! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius, veritatis quia consequuntur, recusandae consequatur magnam nesciunt error libero velit iste harum voluptatem possimus amet cupiditate praesentium sequi laudantium nisi.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum optio alias quisquam eaque repudiandae quidem repellendus quis asperiores iste doloribus tempore soluta cum ratione enim, sint molestias porro eos Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis nihil consectetur asperiores praesentium reprehenderit blanditiis fugit debitis laborum, neque sunt, obcaecati ipsa molestias at inventore dolore pariatur quam officia. Error! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius, veritatis quia consequuntur, recusandae consequatur magnam nesciunt error libero velit iste harum voluptatem possimus amet cupiditate praesentium sequi laudantium nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis deleniti labore, iusto ipsam maiores nisi? Sint voluptates repellendus vel ullam, quos officiis accusantium sunt aspernatur iusto earum dolorum qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores nobis at harum ex temporibus modi est laudantium beatae hic omnis ratione, dolore saepe, aperiam tempore assumenda velit nam ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sequi alias recusandae ullam ducimus maxime necessitatibus expedita quos eligendi, ipsa sint enim fugit voluptate illo quisquam dolorem aliquam perferendis ipsam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis unde amet nemo impedit sapiente veritatis facere, reprehenderit, itaque repellat, voluptatum delectus dolorum molestias odio quidem quam corporis id dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab neque commodi quia amet necessitatibus exercitationem dicta voluptas, iste obcaecati sed, quae laborum officiis nihil non tempora asperiores eligendi repellendus quis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis eius id voluptate adipisci iusto ut quos vel, dolore fugiat maxime vero laudantium numquam pariatur non doloribus provident minus magni. Et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, atque sapiente harum quod quis omnis magni saepe reprehenderit repudiandae, vel a. Rem ipsam neque vitae exercitationem nesciunt eaque velit possimus?</p>
     </main>
 </body>
 </html>
