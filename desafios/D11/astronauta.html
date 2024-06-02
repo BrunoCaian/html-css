@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-        body {
+        #container {
+            position: relative;
             height: 100vh;
             background-color: black;
             background-image: url(imagens/espaco.jpg);
@@ -13,17 +14,20 @@
             background-size: cover;
             background-attachment: fixed;
             background-position: center top;
+            
 
         }
 
-        #astronauta {
-            margin: 0 auto;
-            max-width: 500px;
+        #conteudo {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
         
     </style>
 </head>
-<body>
-    <div id="astronauta"><img src="imagens/astronauta.png" alt="astronauta"></div>
+<body id="container">
+    <div id="conteudo"><img src="imagens/astronauta.png" alt="astronauta"></div>
 </body>
 </html>
